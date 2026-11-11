@@ -1,0 +1,10 @@
+{
+  "plugin.name": "Selector de Colores",
+  "button.pick": "Tomar de Pantalla",
+  "button.copy": "Copiar",
+  "button.copied": "¡Copiado!",
+  "label.current": "Color Activo",
+  "label.input": "Ingresar color (HEX, RGB, HSL, OKLCH)",
+  "label.recent": "Colores Recientes",
+  "label.formats": "Formatos"
+}

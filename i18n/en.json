@@ -1,0 +1,10 @@
+{
+  "plugin.name": "Color Picker",
+  "button.pick": "Pick Screen Color",
+  "button.copy": "Copy",
+  "button.copied": "Copied!",
+  "label.current": "Active Color",
+  "label.input": "Enter color (HEX, RGB, HSL, OKLCH)",
+  "label.recent": "Recent Colors",
+  "label.formats": "Formats"
+}

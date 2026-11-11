@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "dronix.color-picker",
+  "name": "Color Picker",
+  "version": "1.0.0",
+  "author": "dronix",
+  "license": "MIT",
+  "description": "Color picker and palette converter for HEX, RGB, RGBA, HSL, HSV, and OKLCH",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Color Picker",
+    "description": "Inspect and pick colors on screen in HEX, RGB, RGBA, HSL, HSV, and OKLCH",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "defaultFormat": "HEX",
+      "copyOnPick": true
+    },
+    "schema": [
+      {
+        "key": "defaultFormat",
+        "type": "enum",
+        "label": "Default format to copy on pick",
+        "options": ["HEX", "RGB", "RGBA", "HSL", "HSV", "OKLCH"],
+        "defaultValue": "HEX"
+      },
+      {
+        "key": "copyOnPick",
+        "type": "boolean",
+        "label": "Automatically copy to clipboard on pick",
+        "defaultValue": true
+      }
+    ]
+  }
+}

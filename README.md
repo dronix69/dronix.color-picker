@@ -1,5 +1,7 @@
 # Color Picker (`dronix.color-picker`)
 
+![Screenshot](screenshot.png)
+
 Omarchy shell plugin for inspecting, picking, and converting colors across multiple formats:
 
 - **HEX** (`#3b82f6`)
